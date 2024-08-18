@@ -34,5 +34,10 @@ to avoid stacking or precision errors.
 The algorithm constructs tables to keep track of vertex information, including whether a vertex is outside, if it's a 
 crossing point, and its relationship to other vertices. These tables are then used to generate the final resulting polygons.
 
+## References
+- **Documentation**: The algorithm is based on concepts from this [documentation](https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-SA-97135.pdf).
+- **Sutherland-Hodgman Algorithm**: For clipping operations, implementation of Sutherland-Hodgman algorithm can be found [here](https://rosettacode.org/wiki/Sutherland-Hodgman_polygon_clipping).
+- **SAT**: Separating Axis Theorem([SAT](https://dyn4j.org/2010/01/sat/))
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
