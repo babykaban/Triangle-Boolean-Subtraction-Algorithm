@@ -22,7 +22,7 @@ The algorithm is implemented in C/C++, and can be integrated into projects requi
 The best way to use it is to integrate it within your application.
 
 ## Implementation Details
-For a detailed explanation of the algorithm, please refer to [this blog post](___).
+For a detailed explanation of the algorithm, please refer to [this blog post](https://www.pvlso.com/posts/triangle-subtraction/).
 
 ## Short Overview
 The algorithm starts by checking for overlap between the triangles using SAT, reorients them if necessary, and 
